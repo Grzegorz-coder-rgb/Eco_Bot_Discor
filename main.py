@@ -30,3 +30,5 @@ async def rec_informacje(ctx):
     wynik = rec_rozklad()
     await ctx.send(f"Czas rozkładu różnych odpadów:\n{wynik}")
 
+bot.run("")#Token bota
+
